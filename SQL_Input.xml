@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+
+	<!-- Note: remove ";" from the query -->
+	<entry key="1">
+		<![CDATA[
+			INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY)
+			VALUES (4, 'Chaitali', 25, 'Mumbai', 6500.00 )
+		]]>
+	</entry>
+	
+	<entry key="2">
+		<![CDATA[
+			DELETE FROM suppliers
+			WHERE supplier_name = 'Microsoft'
+		]]>
+	</entry>
+	
+	<entry key="3">
+		<![CDATA[
+			UPDATE Customers
+			SET ContactName='Alfred Schmidt', City='Hamburg'
+			WHERE CustomerName='Alfreds Futterkiste'
+		]]>
+	</entry>
+
+</properties>
