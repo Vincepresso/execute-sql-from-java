@@ -5,23 +5,23 @@
 	<!-- Note: remove ";" from the query -->
 	<entry key="1">
 		<![CDATA[
-			INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY)
-			VALUES (4, 'Chaitali', 25, 'Mumbai', 6500.00 )
+			INSERT INTO customers (id, name, age, city)
+			VALUES (4, 'Jane Doe', 25, 'Los Angeles')
 		]]>
 	</entry>
 	
 	<entry key="2">
 		<![CDATA[
 			DELETE FROM suppliers
-			WHERE supplier_name = 'Microsoft'
+			WHERE name = 'ASD Corp'
 		]]>
 	</entry>
 	
 	<entry key="3">
 		<![CDATA[
-			UPDATE Customers
-			SET ContactName='Alfred Schmidt', City='Hamburg'
-			WHERE CustomerName='Alfreds Futterkiste'
+			UPDATE customers
+			SET name='John Smith', city='San Francisco'
+			WHERE name='John Alfred Smith'
 		]]>
 	</entry>
 
