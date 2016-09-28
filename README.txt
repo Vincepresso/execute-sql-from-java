@@ -1,3 +1,7 @@
+For simplicity sake, I contain all files in the master folder.
+In the real world, folder structure would look like:
+MyProject/src/com/vinhuang/...
+
 Sample Code Package contains 3 main components:
 ExecuteSQL.xml --> Spring configuration where the data injection and SQL connection take place
 ExecuteSQLByXMLTasklet.java --> Main Java code
